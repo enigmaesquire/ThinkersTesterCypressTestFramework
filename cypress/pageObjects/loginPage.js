@@ -5,7 +5,7 @@ export class LoginPage extends MainPage {
     super("/", "Contact List App");
   }
   emailTextbox() {
-    return cy.get("#email");
+    return cy.get("#emai#l");
   }
 
   passwordTextbox() {
